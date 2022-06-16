@@ -2,19 +2,15 @@
 
 
     html{
-        background-color: #c9dae2;
         font-family: 'Nunito', sans-serif;
         font-size: 12px;
         flex-wrap: wrap;
-        /* color: rgb(56, 56, 56); */
         color: white;
         box-sizing: border-box;
     }
 
     body{
-        margin: 5px;
-        background-color: white;
-        border-radius: 30px;
+        background-color: #302f2f;
         padding: 8px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.603);
         display: flex;
@@ -41,7 +37,6 @@
         border-radius: 25px;
         padding: 10px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.603);
-        /* border-top: 4px solid #753d53; */
         margin-bottom: 10px;
         display: flex;
         justify-content: space-between;
@@ -59,14 +54,9 @@
         padding: 5px;
     }
 
-    /* .main-logo img{
-    } */
-
     .main-navbar{
         display: flex;
         justify-content: flex-end;
-        /* margin-bottom: 20px; */
-        /* width: 79.3px; */
         display: flex;
         flex-direction: column;
         margin-top: 0;
@@ -98,13 +88,8 @@
         border-radius: 20px 25px 0 20px;
     }
 
-    /* .main-nav-content a:last-child{
-        border-radius: 20px 0 20px 20px;
-    } */
-
     .main-card{
         backdrop-filter: blur(5px);
-        /* background-color: white; */
         border-radius: 20px;
         padding: 10px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.603);
@@ -117,12 +102,12 @@
         width: 160px;
         color: #f8b175;
         font-weight: bold;
-        text-shadow: 0px 0px 4px #30273f;
+        text-shadow: 0px 0px 4px #574672;
     }
 
     .main-card h1:nth-of-type(2){
         color:#30273f;
-        text-shadow: 0px 0px 4px #30273f;
+        text-shadow: 0px 0px 4px #574672;
     }
 
     .mc-buttons{
@@ -147,14 +132,13 @@
         flex-direction: column;
         gap: 10px;
         padding: 10px;
-        background-color: #423140;
+        background-color: rgb(65, 70, 85);
         border-radius: 25px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.603);
     }
 
     .card{
-        background-color: rgb(255, 242, 168);
-        /* background: linear-gradient(0deg, rgba(249,223,119,0.7651435574229692) 42%, rgba(172,88,255,0.6979166666666667) 100%); */
+        background-color: white;
         border-radius: 20px;
         color: black;
         padding: 10px;
@@ -187,7 +171,7 @@
         display: flex;
         justify-content: space-around;
         font-weight: bold;
-        background-color: #423140;
+        background-color: rgb(65, 70, 85);
         border-radius: 20px;
         margin-top: 10px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.603);
@@ -222,14 +206,10 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        /* height: 37px; */
         position: relative;
-        /* top: 20px;    */
     }
     
     .main-navbar ul a{
-        /* border-radius: 0px; */
-        /* font-size: 15px; */
         padding: 10px 15px 10px 15px;
         border-radius: 15px;      
     }
@@ -241,11 +221,7 @@
     .main-navbar button{
         border-radius: 20px;
         margin:0 0 0 0;
-        /* width: 100px; */
         padding: 10px;
-        /* height: 25px; */
-        /* font-size: 15px; */
-        /* flex-wrap: wrap; */
     }
 
     .main-wrapper{
@@ -265,9 +241,6 @@
     
     .card{
         padding: 40px;
-        /* display: flex;
-        flex-direction: column;
-        gap: 10px; */
     }
 
     .main-logo{
@@ -303,14 +276,9 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        /* height: 37px; */
-        position: relative;
-        /* top: 20px;    */
     }
     
     .main-navbar ul a{
-        /* border-radius: 0px; */
-        /* font-size: 15px; */
         padding: 10px 15px 10px 15px;
         border-radius: 15px;      
     }
